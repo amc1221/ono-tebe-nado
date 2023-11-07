@@ -1,0 +1,43 @@
+.header {
+    display: grid;
+    padding: 92px 51px;
+    grid-template-columns: repeat(3, 1fr);
+    font-size: 18px;
+}
+
+.header-menu {
+    display: block;
+    margin: 43px 0;
+    justify-self: start;
+}
+
+.header__menu-item {
+    float: left;
+    margin: 0 20px;
+}
+
+.header__menu-item__active {
+    text-decoration: none;
+}
+
+.header__menu-item.unmarked-link {
+    list-style: none;
+}
+
+.header__menu-item.marked-link {
+    list-style: circle;
+}
+
+.header__logo {
+    display: block;
+    justify-self: center;
+    max-width: 148px;
+}
+
+.header__link {
+    text-decoration: none;
+    border-bottom: 1px solid #000;
+    font-size: 18px;
+    font-style: normal;
+    line-height: normal;
+}

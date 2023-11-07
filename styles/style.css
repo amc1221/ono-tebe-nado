@@ -1,1 +1,17 @@
-/* место для вашего кода */
+.body {
+    margin: 0 auto;
+    max-width: 1440px;
+}
+
+.address-info {
+    color: #000;
+    line-height: 24px;
+    font-size: 18px;
+    max-width: 240px;
+    justify-self: end;
+    align-self: center;
+}
+
+.address-info a:first-child {
+    line-height: 135%;
+}
